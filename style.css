@@ -313,6 +313,7 @@ h3 {
 .about-col img {
   max-width: 100%;
   max-height: 78%;
+  border-radius: 50px;
 }
 
 .about-col h1 {
@@ -338,8 +339,7 @@ h3 {
   position: relative;
   overflow: hidden;
 }
-@media (max-width: 700px) {
-}
+
 /*-----------------------------------------------------------------------------*/
 .about-us1 {
   width: 80%;
@@ -356,6 +356,7 @@ h3 {
 .about-col1 img {
   max-width: 100%;
   max-height: 68%;
+  border-radius: 50px;
 }
 
 .about-col1 h1 {
@@ -381,7 +382,16 @@ h3 {
   position: relative;
   overflow: hidden;
 }
-
+@media (max-width: 700px) {
+  .about-col1 h1 {
+    padding-top: 0;
+    font-size: 25px;
+  }
+  .about-col h1 {
+    padding-top: 0;
+    font-size: 25px;
+  }
+}
 /* ------------------------Counter Number Section Rohan------------------------ */
 .number {
   display: flex;
@@ -390,19 +400,19 @@ h3 {
   align-items: center;
 }
 .numtxt {
-  width: 80%;
+  width: 60%;
   margin: auto;
   padding-top: 100px;
   text-align: center;
 }
 .counter h2 {
-  font-size: 3.2rem;
+  font-size: 20px;
   color: #464646;
   margin: 2rem 0 1rem 0;
 }
 
 .counter p {
-  font-size: 1.7rem;
+  font-size: 15px;
 }
 
 .counter {
@@ -411,6 +421,7 @@ h3 {
 }
 .counter .fa-solid {
   color: #f44336;
+  size: 50%;
 }
 .counter .fa-brands {
   color: #f44336;
@@ -823,4 +834,14 @@ footer {
   width: 100%;
   position: fixed;
   z-index: 100;
+}
+/* ------------------------Chat Box  Section Rohan------------------------ */
+.chat-ion img {
+  height: 70px;
+  width: 70px;
+  position: fixed;
+  right: 30px;
+  bottom: 10px;
+  cursor: pointer;
+  z-index: 1000;
 }
