@@ -318,6 +318,7 @@ h3 {
 .about-col {
   flex-basis: 48%;
   padding: 30px 2px;
+  margin-bottom: -75px;
 }
 
 .about-col img {
@@ -467,11 +468,12 @@ h3 {
 
 .testim {
   width: 100%;
-  top: 300%;
+  top: 50%;
   transform: translateY(-50%);
+  margin-bottom: -200px;
 }
 .testim .wrap {
-  /* position: relative; */
+  position: relative;
   width: 100%;
   max-width: 1020px;
   padding: 40px 20px;
